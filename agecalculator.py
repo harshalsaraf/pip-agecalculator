@@ -4,7 +4,7 @@ import datetime
 
 
 root = Tk()
-root.title("Age Calculator")
+root.title("Age Calculator fun")
 
 
 #Input box for name
@@ -51,7 +51,7 @@ def button2():
 
 
 
-b2 = Button(root, text="Whats your birthyear?:", command=button2)
+b2 = Button(root, text="Whats your birthyear?: ", command=button2)
 
 b2.grid(column=0, row=1)
 
